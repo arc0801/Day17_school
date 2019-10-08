@@ -2,9 +2,10 @@ package com.arc.point;
 
 public class PointDTO {
 
-	//접근지정자
-	//데이터타입
-	//변수명 table
+	// 접근지정자 private
+	// 데이터타입 table의 컬럼과 동일
+	// Number(전체자릿수, 소수점자릿수)
+	// 변수명 table의 컬럼과 동일
 	
 	private String id;
 	private String pw;
