@@ -5,12 +5,14 @@ public class PointDTO {
 	// 접근지정자 private
 	// 데이터타입 table의 컬럼과 동일
 	// Number(전체자릿수, 소수점자릿수)
+	// Number(3) : int, long
+	// Number(4, 2) : float, double
+	// Varchar2() : String
+	// Date : java.sql.Date, String
+	// CLOB : String
 	// 변수명 table의 컬럼과 동일
 	
-	private String id;
-	private String pw;
 	private String name;
-	private String ph;
 	private int num;
 	private int kor;
 	private int eng;
@@ -18,29 +20,11 @@ public class PointDTO {
 	private int total;
 	private double avg;
 	
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-		this.id = id;
-	}
-	public String getPw() {
-		return pw;
-	}
-	public void setPw(String pw) {
-		this.pw = pw;
-	}
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	public String getPh() {
-		return ph;
-	}
-	public void setPh(String ph) {
-		this.ph = ph;
 	}
 	public int getNum() {
 		return num;
